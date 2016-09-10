@@ -1,19 +1,19 @@
-# Jekyll Resume Theme
+# Forked from the Jekyll Resume Theme by Matt Couchman
 
 # Site settings
-title: Jekyll Resume
-email: email@domain.com
-description: Jekyll Resume is a mega simple resume theme for Jekyll.
+title: Nathan Karasch | Software Engineering Student
+email: nkarasch@iastate.edu
+description: Rock Drummer turned US Marine turned Software Engineering student.
 baseurl: ""
-url: "http://mattcouchman.co.uk/jekyll-resume"
-name: Matt Couchman
-job: front end engineer
-location: Birmingham, UK
-languages: HTML, CSS and Javascript
-twitter_username: mattcouchman
-github_username:  mattcouchman
-codepen_username:  mattcouchman
-email_address: some@email.com
+url: "http://nkarasch.public.iastate.edu/"
+name: Nathan Karasch
+job: Software Engineering Student
+location: Iowa State University
+profile_image: "img/nathankarasch-scaled.jpg"
+languages: HTML, CSS and Javascript   # TODO
+email_address: nkarasch@iastate.edu
+github_username:  KrashLeviathan
+linkedin_username:  nathankarasch
 
 # Build settings
 markdown: kramdown

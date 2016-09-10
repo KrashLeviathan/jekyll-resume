@@ -11,9 +11,31 @@ dt, dd {
     margin-bottom: $spacer;
 }
 
+.hide-mobile {
+    display: none;
+}
+
+.hide-desktop, .hide-780plus {
+    display: inline;
+}
+
+@media(min-width: 780px) {
+    .hide-780plus {
+        display: none;
+    }
+}
+
 @media(min-width: 640px) {
-    dt, dd {
+    dt, dd, li {
         margin-bottom: 60px;
+    }
+
+    .hide-mobile {
+        display: inline;
+    }
+
+    .hide-desktop {
+        display: none;
     }
 
     .experience {
@@ -27,25 +49,30 @@ dt, dd {
     }
 
     .education {
-        dt, dd {
-            width: 50%;
-        }
+
     }
 }
 
-.title {
-    margin: 0;
-    font-weight: bold;
-    font-size: 1.2rem;
+.school {
+    &.degree {
+        margin: 0;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    span {
+        float: right;
+    }
 }
 
 a {
-    color: black!important;
-    background: rgba(245, 215, 110, .5);
-    transition: all linear .2s;
+    color: black;
 
     &:hover {
-        background: rgba(245, 215, 110, 1);
+        color: $primary-color;
         text-decoration: none;
     }
+}
+
+.emphasis {
+    color: $primary-color;
 }

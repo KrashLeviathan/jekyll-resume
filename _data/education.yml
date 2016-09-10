@@ -1,11 +1,24 @@
--   qualification: BSc(Hons) Computer Programming
-    school: Oxford
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+-   degree: BS in Software Engineering
+    school: Iowa State University
+    location: Ames, IA
+    graduation: Anticipated Graduation - May 2018
+    gpa: 4.0
 
--   qualification: A-Level Computing
-    school: Some High School
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+-   degree: HVAC/R Level I - Electricity Advanced
+    school: Mayfield College
+    location: Twentynine Palms, CA
+    graduation: November 2013
+    gpa: 4.0
 
--   qualification: A-Level Maths
-    school: Some High School
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+-   degree: AAS in Music Performance
+    school: McNally Smith College of Music
+    location: St Paul, MN
+    graduation: May 2007
+    gpa: 3.94
+
+-   degree: High School Diploma
+    school: Central Lyon HS
+    location: Rock Rapids, IA
+    graduation: May 2005
+    other: Valedictorian
+    gpa: 4.0

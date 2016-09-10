@@ -2,6 +2,18 @@
 # Main Sass file
 ---
 
+// Colors
+$primary-color: #161B3D;
+$secondary-color: #ffdd1a;
+$alternate-color: #015843;
+
+// Default spacing unit
+$spacer: 20px;
+
+body {
+    min-width: 320px;
+}
+
 // Import all partials from _sass
 @import
     'reset',
