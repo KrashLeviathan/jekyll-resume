@@ -4,18 +4,27 @@
     - HTML, SCSS/CSS, JavaScript
     - Java
     - GitHub
-    - Swift
-    - SolidWorks
-    - MatLab
     - MySQL
+- skill: Worked with (but not fluent in)
+  subitems:
+    - C / C++
+    - Swift / Objective C
     - Python
+    - Solidworks
+    - MatLab
 - skill: Worked in a scrum/Kanban (agile development) environment while interning at Workiva for two summers
-- skill: Headed a cross-browser functionality testing project
+- skill: Headed a cross-browser functionality testing project on my product team at Workiva
 - skill: Team leadership experience in the Marine Corps and as President/Treasurer of Web Development Club
 - skill: Relevant coursework
   subitems:
-    - Intro to Object Oriented Programming
-    - Digital Logic with Verilog Design
-    - Intro to Data Structures
-- skill: Microsoft Office Specialist (MOS) Certified
+    - Intro to Object Oriented Programming (ComS 227)
+    - Digital Logic with Verilog Design (CprE 281)
+    - Intro to Data Structures (ComS 228)
+    - Advanced Programming Techniques (ComS 327)
+    - Intro to Computer Architecture and Machine-Level Programming (ComS 321)
+    - Software Development Practices (ComS 309)
+    - Discrete Computational Structures (ComS 230)
+    - Intro to Database Management Systems (ComS 363)
+    - Software Construction and User Interfaces (ComS 319)
+    - Software Project Management (SE 329)
 - skill: Taught a short course in high school on game design
