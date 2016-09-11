@@ -97,10 +97,13 @@ header {
         }
     }
 
+    @media(max-width: 640px) {
+        a {
+            margin-right: ($spacer * 2);
+        }
+    }
+
     @media(max-width: 420px) {
         text-align: center;
-        a {
-            margin: 0 $spacer;
-        }
     }
 }

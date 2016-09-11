@@ -1,5 +1,6 @@
-- Treasurer, founder, and former President of Web Development Club (established Aug 2015)
-- Participation in ISU Veterans Center activities
-- Devoted husband and father
-- Participated in three separate HackISU events
-    - See more at http://devpost.com/KrashLeviathan
+- activity: Treasurer, founder, and former President of Web Development Club (established Aug 2015)
+- activity: Participation in ISU Veterans Center activities
+- activity: Devoted husband and father
+- activity: Participated in three separate HackISU events
+  subitems:
+    - See more at <a href="http://devpost.com/KrashLeviathan" target="_blank">http://devpost.com/KrashLeviathan</a>

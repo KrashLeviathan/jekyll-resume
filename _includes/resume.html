@@ -3,14 +3,32 @@
     <ul class="skills col1">
         {% for skill in site.data.skills %}
         {% if forloop.index0 <= forloop.rindex0 %}
-        <li>{{ skill }}</li>
+        <li>
+            {{ skill.skill }}
+            {% if skill.subitems %}
+            <ul class="subitems">
+                {% for subitem in skill.subitems %}
+                <li>{{ subitem }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </li>
         {% endif %}
         {% endfor %}
     </ul>
     <ul class="skills col2">
         {% for skill in site.data.skills %}
         {% if forloop.index0 > forloop.rindex0 %}
-        <li>{{ skill }}</li>
+        <li>
+            {{ skill.skill }}
+            {% if skill.subitems %}
+            <ul class="subitems">
+                {% for subitem in skill.subitems %}
+                <li>{{ subitem }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </li>
         {% endif %}
         {% endfor %}
     </ul>
@@ -47,14 +65,32 @@
 <ul class="activities col1">
     {% for activity in site.data.activities %}
     {% if forloop.index0 <= forloop.rindex0 %}
-    <li>{{ activity }}</li>
+    <li>
+        {{ activity.activity }}
+        {% if activity.subitems %}
+        <ul class="subitems">
+            {% for subitem in activity.subitems %}
+            <li>{{ subitem }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </li>
     {% endif %}
     {% endfor %}
 </ul>
 <ul class="activities col2">
     {% for activity in site.data.activities %}
     {% if forloop.index0 > forloop.rindex0 %}
-    <li>{{ activity }}</li>
+    <li>
+        {{ activity.activity }}
+        {% if activity.subitems %}
+        <ul class="subitems">
+            {% for subitem in activity.subitems %}
+            <li>{{ subitem }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </li>
     {% endif %}
     {% endfor %}
 </ul>

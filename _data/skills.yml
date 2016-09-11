@@ -1,4 +1,5 @@
-- Familiar with the following
+- skill: Familiar with the following
+  subitems:
     - Google Dart
     - HTML, SCSS/CSS, JavaScript
     - Java
@@ -8,12 +9,13 @@
     - MatLab
     - MySQL
     - Python
-- Worked in a scrum/Kanban (agile development) environment while interning at Workiva for two summers
-- Headed a cross-browser functionality testing project
-- Team leadership experience in the Marine Corps and as President/Treasurer of Web Development Club
-- Relevant coursework
+- skill: Worked in a scrum/Kanban (agile development) environment while interning at Workiva for two summers
+- skill: Headed a cross-browser functionality testing project
+- skill: Team leadership experience in the Marine Corps and as President/Treasurer of Web Development Club
+- skill: Relevant coursework
+  subitems:
     - Intro to Object Oriented Programming
     - Digital Logic with Verilog Design
     - Intro to Data Structures
-- Microsoft Office Specialist (MOS) Certified
-- Taught a short course in high school on game design
+- skill: Microsoft Office Specialist (MOS) Certified
+- skill: Taught a short course in high school on game design

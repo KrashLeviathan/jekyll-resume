@@ -1,5 +1,9 @@
 <footer class="footer">
     <p class="footer__title">{{ site.name }}</p>
     <p class="footer__subtitle">{{ site.job }}</p>
-    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    <div class="social">
+        {{ if site.email_address }}<a href="mailto:{{ site.email_address }}" target="_blank">Email</a>{{ endif }}
+        {{ if site.github_username }}<a href="http://github.com/{{ site.github_username }}" target="_blank">GitHub</a>{{ endif }}
+        {{ if site.linkedin_username }}<a href="http://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a>{{ endif }}
+    </div>
 </footer>

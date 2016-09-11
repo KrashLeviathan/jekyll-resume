@@ -38,7 +38,16 @@ dt, dd {
 .activities, .skills {
     list-style: outside none $bullet-character;
     li {
-        margin-bottom: $spacer;
+        margin-bottom: ($spacer / 2);
+        padding-left: ($spacer / 2);
+    }
+}
+
+.subitems {
+    list-style: outside none $bullet-character-sub;
+    margin-left: $spacer;
+    li {
+        margin-bottom: 0;
         padding-left: ($spacer / 2);
     }
 }
