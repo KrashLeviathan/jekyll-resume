@@ -1,14 +1,22 @@
-<h3 class="section-title">Experience</h3>
-<dl class="experience">
-    {% for job in site.data.jobs %}
-    <dt>
-    {{ job.dates }}
-    </dt><!--
-        --><dd>
-    <p>{{ job.title }}<span>{{ job.company }}, {{ job.location }}</span></p>
-    </dd>
-    {% endfor %}
-</dl>
+<h3 class="section-title">Skills & Experience</h3>
+<div>
+    <ul class="skills col1">
+        {% for skill in site.data.skills %}
+        {% if forloop.index0 <= forloop.rindex0 %}
+        <li>{{ skill }}</li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+    <ul class="skills col2">
+        {% for skill in site.data.skills %}
+        {% if forloop.index0 > forloop.rindex0 %}
+        <li>{{ skill }}</li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+
+<div style="clear: both;"></div>
 
 <h3 class="section-title">Education</h3>
 <ul class="education">
@@ -22,3 +30,33 @@
     </li>
     {% endfor %}
 </ul>
+
+<h3 class="section-title">Employment</h3>
+<dl class="experience">
+    {% for job in site.data.jobs %}
+    <dt>
+        {{ job.dates }}
+    </dt><!--
+        --><dd>
+    <p>{{ job.title }}<span>{{ job.company }}, {{ job.location }}</span></p>
+</dd>
+    {% endfor %}
+</dl>
+
+<h3 class="section-title">Clubs & Activities</h3>
+<ul class="activities col1">
+    {% for activity in site.data.activities %}
+    {% if forloop.index0 <= forloop.rindex0 %}
+    <li>{{ activity }}</li>
+    {% endif %}
+    {% endfor %}
+</ul>
+<ul class="activities col2">
+    {% for activity in site.data.activities %}
+    {% if forloop.index0 > forloop.rindex0 %}
+    <li>{{ activity }}</li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+<div style="clear: both;"></div>

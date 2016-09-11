@@ -10,6 +10,15 @@ $alternate-color: #015843;
 // Default spacing unit
 $spacer: 20px;
 
+// Special Characters
+$bullet-character: "\27A4"; // Black rightwards arrowhead
+// $bullet-character: "\272A"; // Circled star
+// $bullet-character: "\";
+// $bullet-character: "\";
+$left-bracket: "\2770";
+$right-bracket: "\2771";
+
+
 body {
     min-width: 320px;
 }

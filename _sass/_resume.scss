@@ -25,6 +25,24 @@ dt, dd {
     }
 }
 
+.col1 {
+    float: left;
+    margin-right: 4%;
+}
+
+.col1, .col2 {
+    display: inline-block;
+    width: 48%;
+}
+
+.activities, .skills {
+    list-style: outside none $bullet-character;
+    li {
+        margin-bottom: $spacer;
+        padding-left: ($spacer / 2);
+    }
+}
+
 @media(min-width: 640px) {
     dt, dd, li {
         margin-bottom: 60px;

@@ -64,10 +64,37 @@ header {
 }
 
 .social {
+    padding-left: 15px;
     a {
         position: relative;
-        margin-right: $spacer;
+        margin-right: ($spacer * 3);
         top: 30px;
+        text-decoration: none;
+
+        &:before, &:after {
+            position: absolute;
+            top: -4px;
+            color: $primary-color;
+            transition: all 100ms;
+        }
+        &:before {
+            content: $left-bracket;
+            left: -15px;
+            pointer-events: none;
+        }
+        &:after {
+            content: $right-bracket;
+            right: -15px;
+            pointer-events: none;
+        }
+        &:hover {
+            &:before {
+                left: -20px;
+            }
+            &:after {
+                right: -20px;
+            }
+        }
     }
 
     @media(max-width: 420px) {
