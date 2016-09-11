@@ -8,11 +8,6 @@ header {
     background-color: $primary-color;
     color: white;
 
-    @media(min-width: 640px) {
-        padding: ($spacer * 10) 0 0;
-        margin-bottom: ($spacer * 8);
-    }
-
     .emphasis {
         color: $secondary-color;
     }
@@ -32,17 +27,6 @@ header {
         width: 120px;
         display: block;
         margin: ($spacer * 2) auto 0;
-
-        @media(min-width: 640px) {
-            margin: 0;
-            width: 200px;
-        }
-
-        @media(min-width: 420px) {
-            position: absolute;
-            right: 0;
-            top: 0;
-        }
     }
 
     &__main {
@@ -51,23 +35,16 @@ header {
         font-weight: bold;
         margin: 30px 0 0;
         text-align: center;
-
-        @media(min-width: 640px) {
-            font-size: 2.2rem;
-            //max-width: 60%;
-        }
-
-        @media(min-width: 420px) {
-            text-align: left;
-        }
     }
 }
 
 .social {
-    padding-left: 15px;
+    padding-left: ($spacer * 2);
+    text-align: center;
+
     a {
         position: relative;
-        margin-right: ($spacer * 3);
+        margin-right: ($spacer * 2);
         top: 30px;
         text-decoration: none;
 
@@ -96,14 +73,45 @@ header {
             }
         }
     }
+}
 
-    @media(max-width: 640px) {
-        a {
-            margin-right: ($spacer * 2);
+// MEDIA QUERIES (Mobile-first approach)
+
+@media(min-width: 420px) {
+    .intro {
+        img {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        &__main {
+            text-align: left;
         }
     }
 
-    @media(max-width: 420px) {
-        text-align: center;
+    .social {
+        padding-left: 15px;
+        text-align: left;
+    }
+}
+
+@media(min-width: 640px) {
+    header {
+        padding: ($spacer * 10) 0 0;
+        margin-bottom: ($spacer * 8);
+    }
+
+    .intro {
+        img {
+            margin: 0;
+            width: 200px;
+        }
+        &__main {
+            font-size: 2.2rem;
+        }
+    }
+
+    .social a {
+        margin-right: ($spacer * 3);
     }
 }

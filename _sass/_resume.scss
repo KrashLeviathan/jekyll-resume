@@ -11,20 +11,6 @@ dt, dd {
     margin-bottom: $spacer;
 }
 
-.hide-mobile {
-    display: none;
-}
-
-.hide-desktop, .hide-780plus {
-    display: inline;
-}
-
-@media(min-width: 780px) {
-    .hide-780plus {
-        display: none;
-    }
-}
-
 .col1 {
     float: left;
     margin-right: 4%;
@@ -51,6 +37,40 @@ dt, dd {
         padding-left: ($spacer / 2);
     }
 }
+
+.school {
+    &.degree {
+        margin: 0;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    span {
+        float: right;
+    }
+}
+
+a {
+    color: black;
+
+    &:hover {
+        color: $primary-color;
+        text-decoration: none;
+    }
+}
+
+.emphasis {
+    color: $primary-color;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+.hide-desktop, .hide-780plus {
+    display: inline;
+}
+
+// MEDIA QUERIES (Mobile-first approach)
 
 @media(min-width: 640px) {
     dt, dd, li {
@@ -80,26 +100,8 @@ dt, dd {
     }
 }
 
-.school {
-    &.degree {
-        margin: 0;
-        font-weight: bold;
-        font-size: 1.2rem;
+@media(min-width: 780px) {
+    .hide-780plus {
+        display: none;
     }
-    span {
-        float: right;
-    }
-}
-
-a {
-    color: black;
-
-    &:hover {
-        color: $primary-color;
-        text-decoration: none;
-    }
-}
-
-.emphasis {
-    color: $primary-color;
 }
