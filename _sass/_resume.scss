@@ -11,14 +11,8 @@ dt, dd {
     margin-bottom: $spacer;
 }
 
-.col1 {
-    float: left;
-    margin-right: 4%;
-}
-
 .col1, .col2 {
     display: inline-block;
-    width: 48%;
 }
 
 .activities, .skills {
@@ -92,6 +86,15 @@ a {
 
     .hide-desktop {
         display: none;
+    }
+
+    .col1 {
+        float: left;
+        margin-right: 4%;
+    }
+
+    .col1, .col2 {
+        width: 48%;
     }
 
     .experience {
