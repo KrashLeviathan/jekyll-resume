@@ -8,7 +8,12 @@
             {% if skill.subitems %}
             <ul class="subitems">
                 {% for subitem in skill.subitems %}
-                <li>{{ subitem }}</li>
+                <li>{{ subitem.item }}
+                    {% if subitem.alt %}
+                    <span class="subdued">({{ subitem.alt }})</span>
+                    <div style="clear: both"></div>
+                    {% endif %}
+                </li>
                 {% endfor %}
             </ul>
             {% endif %}
@@ -24,7 +29,12 @@
             {% if skill.subitems %}
             <ul class="subitems">
                 {% for subitem in skill.subitems %}
-                <li>{{ subitem }}</li>
+                <li>{{ subitem.item }}
+                    {% if subitem.alt %}
+                    <span class="subdued">({{ subitem.alt }})</span>
+                    <div style="clear: both"></div>
+                    {% endif %}
+                </li>
                 {% endfor %}
             </ul>
             {% endif %}

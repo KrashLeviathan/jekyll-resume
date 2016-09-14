@@ -1,30 +1,46 @@
 - skill: Familiar with the following
   subitems:
-    - Google Dart
-    - HTML, SCSS/CSS, JavaScript
-    - Java
-    - GitHub
-    - MySQL
+    - item: Google Dart
+    - item: HTML, SCSS/CSS, JavaScript
+    - item: Java
+    - item: GitHub
+    - item: MySQL
+
 - skill: Worked with (but not fluent in)
   subitems:
-    - C / C++
-    - Swift / Objective C
-    - Python
-    - Solidworks
-    - MatLab
+    - item: C / C++
+    - item: Swift / Objective C
+    - item: Python
+    - item: Solidworks
+    - item: MatLab
+
 - skill: Worked in a scrum/Kanban (agile development) environment while interning at Workiva for two summers
+
 - skill: Headed a cross-browser functionality testing project on my product team at Workiva
+
 - skill: Team leadership experience in the Marine Corps and as President/Treasurer of Web Development Club
+
 - skill: Relevant coursework
   subitems:
-    - Intro to Object Oriented Programming (ComS 227)
-    - Digital Logic with Verilog Design (CprE 281)
-    - Intro to Data Structures (ComS 228)
-    - Advanced Programming Techniques (ComS 327)
-    - Intro to Computer Architecture and Machine-Level Programming (ComS 321)
-    - Software Development Practices (ComS 309)
-    - Discrete Computational Structures (ComS 230)
-    - Intro to Database Management Systems (ComS 363)
-    - Software Construction and User Interfaces (ComS 319)
-    - Software Project Management (SE 329)
+    - item: Intro to Object Oriented Programming
+      alt: ComS 227
+    - item: Intro to Data Structures
+      alt: ComS 228
+    - item: Discrete Computational Structures
+      alt: ComS 230
+    - item: Software Development Practices
+      alt: ComS 309
+    - item: Software Construction and User Interfaces
+      alt: ComS 319
+    - item: Intro to Computer Architecture and Machine-Level Programming
+      alt: ComS 321
+    - item: Advanced Programming Techniques
+      alt: ComS 327
+    - item: Intro to Database Management Systems
+      alt: ComS 363
+    - item: Software Project Management
+      alt: SE 329
+    - item: Digital Logic with Verilog Design
+      alt: CprE 281
+
 - skill: Taught a short course in high school on game design

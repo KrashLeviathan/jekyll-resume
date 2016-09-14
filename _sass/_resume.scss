@@ -35,7 +35,16 @@ dt, dd {
     li {
         margin-bottom: 0;
         padding-left: ($spacer / 2);
+        span.subdued {
+            float: right;
+        }
     }
+}
+
+.subdued {
+    font-size: small;
+    color: gray;
+    word-break: keep-all;
 }
 
 .school {
