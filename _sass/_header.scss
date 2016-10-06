@@ -49,7 +49,6 @@ header {
 
         &:before, &:after {
             position: absolute;
-            top: -4px;
             color: $primary-color;
             transition: all 100ms;
         }
