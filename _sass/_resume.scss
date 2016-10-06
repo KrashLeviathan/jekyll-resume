@@ -30,6 +30,10 @@ dt, dd {
         margin-bottom: 0;
         padding-left: ($spacer / 2);
         list-style: circle outside;
+        a.subdued {
+            float: right;
+            text-decoration: none;
+        }
         span.subdued {
             float: right;
         }

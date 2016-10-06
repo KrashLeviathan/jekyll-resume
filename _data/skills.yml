@@ -24,23 +24,33 @@
   subitems:
     - item: Intro to Object Oriented Programming
       alt: ComS 227
+      link: http://catalog.iastate.edu/search/?P=COM%20S%20227
     - item: Intro to Data Structures
       alt: ComS 228
+      link: http://catalog.iastate.edu/search/?P=COM%20S%20228
     - item: Discrete Computational Structures
       alt: ComS 230
+      link: http://catalog.iastate.edu/search/?P=COM%20S%20230
     - item: Software Development Practices
       alt: ComS 309
+      link: http://catalog.iastate.edu/search/?P=COM%20S%20309
     - item: Software Construction and User Interfaces
       alt: ComS 319
+      link: http://catalog.iastate.edu/search/?P=COM%20S%20319
     - item: Intro to Computer Architecture and Machine-Level Programming
       alt: ComS 321
+      link: http://catalog.iastate.edu/search/?P=COM%20S%20321
     - item: Advanced Programming Techniques
       alt: ComS 327
+      link: http://catalog.iastate.edu/search/?P=COM%20S%20327
     - item: Intro to Database Management Systems
       alt: ComS 363
+      link: http://catalog.iastate.edu/search/?P=COM%20S%20363
     - item: Software Project Management
       alt: SE 329
+      link: http://catalog.iastate.edu/search/?P=S%20E%20329
     - item: Digital Logic with Verilog Design
       alt: CprE 281
+      link: http://catalog.iastate.edu/search/?P=CPR%20E%20281
 
 - skill: Taught a short course in high school on game design

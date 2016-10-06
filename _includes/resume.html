@@ -31,7 +31,7 @@
                 {% for subitem in skill.subitems %}
                 <li>{{ subitem.item }}
                     {% if subitem.alt %}
-                    <span class="subdued">({{ subitem.alt }})</span>
+                    <a class="subdued" href="{{ subitem.link }}" target="_blank">({{ subitem.alt }})</a>
                     <div style="clear: both"></div>
                     {% endif %}
                 </li>
