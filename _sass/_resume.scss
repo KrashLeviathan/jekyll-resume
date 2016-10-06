@@ -16,19 +16,20 @@ dt, dd {
 }
 
 .activities, .skills {
-    list-style: outside none $bullet-character;
+    margin-left: $spacer;
     li {
         margin-bottom: ($spacer / 2);
         padding-left: ($spacer / 2);
+        list-style: disc outside;
     }
 }
 
 .subitems {
-    list-style: outside none $bullet-character-sub;
     margin-left: $spacer;
     li {
         margin-bottom: 0;
         padding-left: ($spacer / 2);
+        list-style: circle outside;
         span.subdued {
             float: right;
         }
@@ -41,14 +42,27 @@ dt, dd {
     word-break: keep-all;
 }
 
+.education {
+    li {
+        margin-left: $spacer;
+        margin-bottom: $spacer;
+    }
+}
+
 .school {
+    margin-left: $spacer;
     &.degree {
         margin: 0;
         font-weight: bold;
         font-size: 1.2rem;
+        span {
+            margin-left: $spacer;
+        }
     }
     span {
-        float: right;
+        display: block;
+        font-weight: normal;
+        //float: right;
     }
 }
 
@@ -94,7 +108,11 @@ a {
     }
 
     .col1, .col2 {
-        width: 48%;
+        width: 44%;
+    }
+
+    .activities, .skills {
+        //margin-left: 0;
     }
 
     .experience {
@@ -108,12 +126,31 @@ a {
     }
 
     .education {
+        li {
+            margin-left: 0;
+            margin-bottom: ($spacer * 2);
+        }
+        span {
+            display: inline-block;
+            float: right;
+        }
+    }
 
+    .school {
+        margin-left: 0;
     }
 }
 
 @media(min-width: 780px) {
     .hide-780plus {
         display: none;
+    }
+
+    .col1, .col2 {
+        width: 48%;
+    }
+
+    .activities, .skills {
+        margin-left: 0;
     }
 }
