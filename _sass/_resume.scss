@@ -11,6 +11,10 @@ dt, dd {
     margin-bottom: $spacer;
 }
 
+i {
+    font-style: italic;
+}
+
 .col1, .col2 {
     display: inline-block;
 }
@@ -70,6 +74,28 @@ dt, dd {
     }
 }
 
+.experience {
+    dt {
+        display: block;
+        margin-bottom: 0;
+    }
+    dd {
+        display: block;
+        margin-bottom: $spacer;
+        p {
+            font-weight: 700;
+            font-size: 1.2rem;
+            span {
+                font-weight: normal;
+                float: right;
+                text-align: right;
+                margin-bottom: $spacer;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
 a {
     color: black;
 
@@ -120,12 +146,23 @@ a {
     }
 
     .experience {
+        dt, dd {
+            //margin-bottom: ($spacer * 2);
+            display: inline-block;
+        }
         dt {
-            width: 30%;
-            padding-right: ($spacer * 2);
+            float: left;
+            width: 22%;
+            min-width: 170px;
         }
         dd {
-            width: 70%;
+            margin-bottom: ($spacer * 2);
+            float: right;
+            width: 75%;
+            min-width: 545px;
+            p span {
+                margin-bottom: 0;
+            }
         }
     }
 
